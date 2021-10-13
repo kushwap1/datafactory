@@ -540,7 +540,9 @@
 				"type": "DelimitedText",
 				"typeProperties": {
 					"location": {
-						"type": "AzureBlobFSLocation"
+						"type": "AzureBlobFSLocation",
+						"fileName": "log.csv",
+						"fileSystem": "nginx"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
