@@ -1,0 +1,17 @@
+{
+	"name": "acloudgurulink",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\nginx-1.20.1\\logs",
+			"userId": "cloud_user",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxMWM1NmI1MC1hMjVjLTQ0MjgtYjY5Yy02NWVhNzg2NzhkYzIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "acloudguru",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

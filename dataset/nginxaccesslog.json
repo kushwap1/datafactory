@@ -1,0 +1,19 @@
+{
+	"name": "nginxaccesslog",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "access.log",
+				"fileSystem": "nginx"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
